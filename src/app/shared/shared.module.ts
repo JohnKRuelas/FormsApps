@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SidemenuComponent } from './components/sidemenu/sidemenu.component';
 import { RouterModule } from '@angular/router';
+import { ValidatorService } from './service/validators.service';
 
 
 
@@ -14,7 +15,7 @@ import { RouterModule } from '@angular/router';
     RouterModule
   ],
   exports:[
-    SidemenuComponent
+    SidemenuComponent,
   ]
 })
 export class SharedModule { }
